@@ -7,7 +7,7 @@ total = 0
 mayor_pago = 0
 placa_mayor = ""
 
-for i in range(0,3,1):
+for i in range(0,8,1):
 
     placa = input("\nIngrese su placa: ")
 
@@ -38,4 +38,5 @@ print("\nTotal recaudado: $",total)
 print("Carros ingresados: ",carro)
 print("Motos ingresadas: ",moto)
 print("Vehiculo que pago mas fue el de la placa: ", placa_mayor, "con $", mayor_pago)
+
 print()
